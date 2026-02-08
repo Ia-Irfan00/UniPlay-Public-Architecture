@@ -4,7 +4,7 @@ A high-leverage, Rust-powered game execution engine designed for  UniPlay replac
 **Low-Latency Game Indexing & Execution Engine**
 
 ## 🏛️ Architectural Thesis
-Modern digital distribution platforms have succumbed to "software bloat," often consuming 500MB–1GB of idle RAM for simple library management. **UniPlay** is a systemic rebuttal to this trend. Built on the principle of **Resource Sovereignty**, it provides a high-fidelity interface for asset management with a hard-capped memory footprint of **<30MB**.
+Modern digital distribution platforms have succumbed to "software bloat," often consuming 500MB–1GB of idle RAM for simple library management. **UniPlay** is a systemic rebuttal to this trend. Built on the principle of **Resource Sovereignty**, it provides a high-fidelity interface for asset management with a hard-capped memory footprint of **<30-40MB**
 
 ## 🛠️ Technical Stack & Implementation
 The system is engineered using a decoupled, multi-threaded architecture to ensure UI fluidity regardless of system-level I/O operations.
