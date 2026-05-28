@@ -72,7 +72,7 @@ Chromium — no Electron overhead.
 
 ## Status
 
-Stable MVP — code signing and public release in progress.
+v1.0.0 — Live and publicly available. Download at uniplay.systems
 
 ## License & Commercial Use
 
