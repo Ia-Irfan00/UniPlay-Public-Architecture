@@ -21,7 +21,7 @@ game more breathing room on launch.
   when a game starts
 - Logs exactly how much RAM was reclaimed per session
 - Lets you set trim preferences per game
-- Manual flush button for mid-session use
+- Manual turbo button for mid-session use
 - No background monitoring loop — only runs when called
 
 ## Tech Stack
@@ -62,7 +62,7 @@ Chromium — no Electron overhead.
 - Full Steam game library
 - Safe mode RAM reclamation (Steam processes)
 - Total RAM saved counter
-- Manual turbo flush
+- Manual turbo button
 
 **Pro tier:**
 - Balanced mode (additional background processes)
