@@ -10,8 +10,8 @@ provides a clean game library interface and reclaims
 physical RAM from idle background processes when you 
 launch a game.
 
-Built as an alternative to bloated game launchers — 
-UniPlay's own footprint stays light while giving your 
+It's built as an alternative to bloated game launchers — 
+UniPlay's own footprint stays light while also giving your 
 game more breathing room on launch.
 
 ## What It Does
@@ -44,8 +44,8 @@ indexing regardless of library size.
 **Accurate RAM measurement**
 Background processes are batch trimmed first, then a 
 settle period allows Windows to complete the operation 
-before measuring. This prevents mid-trim readings that 
-would inflate reported savings.
+before measuring. So this prevents mid-trim readings that 
+would then inflate the reported savings.
 
 **Thread-safe state**
 Shared application state is managed via Arc<Mutex> 
@@ -54,7 +54,7 @@ and UI updates don't interfere with each other.
 
 **Lightweight by design**
 Built on Tauri's native OS webview rather than bundling 
-Chromium — no Electron overhead.
+Chromium — So there's no Electron overhead.
 
 ## Features
 
@@ -72,7 +72,7 @@ Chromium — no Electron overhead.
 
 ## Status
 
-v1.0.0 — Live and publicly available. Download at uniplay.systems
+v1.0.0 — Live and publicly available. Download here at uniplay.systems
 
 ## License & Commercial Use
 
@@ -89,6 +89,5 @@ Proprietary. © 2026 UniPlay LTD. All rights reserved.
 
 ---
 **Built by: Imaad Akhtar Irfan
- LinkedIn: Imaad Akhtar Irfan 
-• Age 19 •  | Focusing on systems, logic, and building 
+ LinkedIn: Imaad Akhtar Irfan   | Focusing on systems, logic, and building 
 things that do what they say.
